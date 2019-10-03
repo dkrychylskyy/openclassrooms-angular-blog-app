@@ -2,10 +2,10 @@
 'list-group-item-success': loveIts > 0,
 'list-group-item-danger' : loveIts < 0
 }">
-<div class="text-right text-muted"><em>{{created_at | date : "dd/MM/yyyy HH:mm"}}</em></div>
-<h4>{{title}}</h4>
-<p>{{content}}</p>
+    <div class="text-right text-muted"><em>{{created_at | date : "dd/MM/yyyy HH:mm"}}</em></div>
+    <h4>{{title}}</h4>
+    <p>{{content}}</p>
 
-<button type="button" class="btn btn-success" (click)="like()">Love it!</button>
-<button type="button" class="btn btn-danger" (click)="disLike()">Don't love it!</button>
+    <button type="button" class="btn btn-success" (click)="like()">Love it!</button>
+    <button type="button" class="btn btn-danger" (click)="disLike()">Don't love it!</button>
 </li>
